@@ -1,0 +1,9 @@
+.Footer{
+    background-color: #1c2228;
+    color: white;
+}
+
+.Footer__container{
+    display: flex;
+    justify-content: space-between;
+}

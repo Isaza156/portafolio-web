@@ -1,0 +1,35 @@
+.Contact{
+    background-color: #056fff;
+}
+
+.Contact__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Contact__social{
+    margin-top: 40px;
+}
+
+.Contact__social-link{
+    text-align: center;
+}
+
+.Contact__form-email h5{
+    color: white;
+}
+
+.Contact__form-email input{
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.Contact__form-email button{
+    padding: 10px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}

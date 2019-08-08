@@ -1,0 +1,41 @@
+.Event {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.Event__container {
+    margin: 20px;
+    box-shadow: 1px 5px 10px gray;
+    border-radius: 10px;
+    background-color: #f4fbff;
+}
+
+.Event-imageContainer{
+    margin:0;
+}
+
+.Event-image{
+    width: 380px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.Event-detail{
+    margin: 20px 40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    margin-top: -40px;
+    text-align: center;
+}
+
+.Event-description{
+    text-align: left;
+}
+
+.Event__url{
+    border: 1px solid rgb(62, 62, 248);
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
